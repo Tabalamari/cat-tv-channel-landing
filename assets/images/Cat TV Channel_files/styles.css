@@ -122,7 +122,7 @@ nav {
     justify-content: space-between;
     gap: 1.9rem;
     max-width: 1100px;
-    margin: -6px auto;
+    margin: 2rem auto -6rem;
 }
 
 .intro-text h1 {
@@ -142,6 +142,9 @@ nav {
     color: var(--primary-color);
 }
 
+.connecting {
+    color: var(--secondary-color);
+}
 
 .btn {
     margin-top: 1rem;
@@ -170,14 +173,6 @@ nav {
 .blue:hover {
     background-color: #095cf7;
     color: #fff;
-}
-
-.intro-text {
-    margin-top: -130px;
-}
-
-.i-frame {
-    margin-top: 60px;
 }
 
 iframe {
@@ -220,15 +215,9 @@ iframe {
     /* margin: 2rem 0; */
 }
 
-.about-text {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1.5rem;
-    border-radius: 10px;
-    text-align: center;
-}
-
 .about h3 {
     font-size: 3em;
+    margin-bottom: -20px;
     text-shadow: 2px 2px 2px #333;
 }
 
